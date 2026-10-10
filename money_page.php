@@ -112,8 +112,6 @@ if(!empty($_POST["delete"])){
     $stmt->bindParam(":money_id",$money_id,PDO::PARAM_INT);
     
     $stmt->execute();
-            
-    echo "選択したデータを削除しました。";
 }
 ?>
 
